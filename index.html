@@ -97,27 +97,25 @@
 
     <div class="instructions-box">
         <h3>🎲 DICE GAME — Game Description & Instructions</h3>
-        <p>
-            <strong>🔍 Overview:</strong><br>
-            DICE GAME is a console-based multiplayer version of Snakes and Ladders for 4 players, with added mini-games replacing snake penalties.
+        <p><strong>🔍 Overview:</strong><br>
+            DICE GAME is a console-based 4-player Snakes and Ladders game featuring random challenge spots instead of snake penalties, making each game unique and exciting.
         </p><br>
 
         <p><strong>🧩 Objective:</strong></p>
         <ul>
-            <li>Be the first to reach position 100.</li>
-            <li>Roll the dice to move forward.</li>
-            <li>Climb ladders or complete challenges to advance faster.</li>
+            <li>Be the first player to land exactly on position 100.</li>
+            <li>Roll dice to move, climb ladders, and beat mini-games to progress faster.</li>
         </ul>
 
         <p><strong>🕹️ Game Mechanics:</strong></p>
         <ol>
             <li><strong>Turn-Based Dice Roll:</strong><br>
-                - Each of the 4 players rolls a 6-sided dice.<br>
-                - The rolled number is added to the player’s position.
+                - Each player rolls a 6-sided dice.<br>
+                - The roll value is added to the player’s current position.
             </li>
             <li><strong>Winning:</strong><br>
-                - A player must land exactly on 100 to win.<br>
-                - If the roll overshoots 100, the turn is skipped.
+                - Players must land exactly on 100.<br>
+                - Rolls that go beyond 100 are discarded for that turn.
             </li>
             <li><strong>Ladders:</strong><br>
                 - 13 ➝ 42<br>
@@ -125,32 +123,38 @@
                 - 70 ➝ 93
             </li>
             <li><strong>Challenge Spots:</strong><br>
-                - Position 25 – 🎮 Rock-Paper-Scissors<br>
-                - Position 65 – 🎮 Simulated Tic-Tac-Toe (50% win chance)<br>
-                - Position 99 – 🎮 Hangman ("code" is the answer)<br>
-                - Failing a mini-game means no movement.
+                - There are 9 challenge spots randomly spread across columns 2–10 (excluding column 1).<br>
+                - Each spot randomly features one of the 3 mini-games:<br>
+                    &nbsp;&nbsp;&nbsp;• 🎮 Rock-Paper-Scissors<br>
+                    &nbsp;&nbsp;&nbsp;• 🎮 Simulated Tic-Tac-Toe<br>
+                    &nbsp;&nbsp;&nbsp;• 🎮 Hangman ("code")<br>
+                - Mini-game difficulty is fair, not too easy or too hard.
+            </li>
+            <li><strong>Challenge Outcome:</strong><br>
+                - Winning a challenge allows you to move forward and grants an extra turn.<br>
+                - Failing a challenge means you stay at your current position.
             </li>
             <li><strong>Extra Turn Rule:</strong><br>
-                - Rolling a 6 grants another turn.
+                - Rolling a 6 or winning a challenge gives an extra turn.
             </li>
         </ol>
 
         <p><strong>🎮 Mini-Game Instructions:</strong></p>
         <ul>
-            <li><strong>Rock-Paper-Scissors:</strong> Input 0 for Rock, 1 for Paper, 2 for Scissors. Beat the computer to move.</li>
-            <li><strong>Tic-Tac-Toe:</strong> A simulated 50% chance to win.</li>
-            <li><strong>Hangman:</strong> Guess the 4-letter word "code". Type it exactly to win.</li>
+            <li><strong>Rock-Paper-Scissors:</strong> Enter 0 = Rock, 1 = Paper, 2 = Scissors. Beat the computer.</li>
+            <li><strong>Tic-Tac-Toe:</strong> Simulated game with a 50% chance to win. No input required.</li>
+            <li><strong>Hangman:</strong> Guess the word "code" exactly to win.</li>
         </ul>
 
         <p><strong>✅ How to Play:</strong></p>
         <ul>
-            <li>Press Enter when prompted to roll the dice.</li>
-            <li>Follow prompts for mini-games.</li>
-            <li>Check each player's position after every round.</li>
+            <li>Press Enter to roll the dice on your turn.</li>
+            <li>Play a mini-game if you land on a challenge spot.</li>
+            <li>First player to land exactly on 100 wins!</li>
         </ul>
 
         <p><strong>🏁 Winning Tip:</strong><br>
-            Success depends on both smart dice rolls and clearing challenges. Stay sharp and enjoy the game!
+            Combine lucky rolls with clever wins in mini-games to dominate the board. Every challenge is a chance to turn the game in your favor!
         </p>
     </div>
 
